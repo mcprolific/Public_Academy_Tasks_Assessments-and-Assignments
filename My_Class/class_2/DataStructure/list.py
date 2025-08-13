@@ -9,6 +9,15 @@
 # From a tuple
 # From a range
 
+# Characteristics of a list
+# 1. Ordered Collection
+# 2. Allows Duplicates
+# 3. Mutable (Can Be Changed)
+# 4. Can Contain Different Data Types
+# 5. Can Be Nested
+# 6. Dynamic Size
+
+
 
 # Method 1: Using square brackets
 empty_list = []
@@ -21,9 +30,6 @@ print(empty_list2)  # Output: []
 # List of integers
 numbers = [1, 2, 3, 4, 5]
 print(numbers)  # Output: [1, 2, 3, 4, 5]
-# E.g
-valnum = "1", "2", "3", "4"
-print(valnum)
 
 # List of strings
 fruits = ["apple", "banana", "cherry"]
@@ -43,6 +49,7 @@ print(chars)  # Output: ['h', 'e', 'l', 'l', 'o']
 my_tuple = (10, 20, 30)
 list_from_tuple = list(my_tuple)
 print(list_from_tuple)  # Output: [10, 20, 30]
+
 
 
 # From a range
